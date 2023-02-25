@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
+import 'homepage.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -10,8 +12,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Home(),
+    return const MaterialApp(
+      home: HomePage(),
     );
   }
 }
